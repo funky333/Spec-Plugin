@@ -1,0 +1,13 @@
+main: de.funky33.spec.Main
+version: 1.0
+name: SpecPlugin
+
+commands:
+    spec:
+      description: Change between Spectator mode and Survival mode!
+    hspec:
+      description: Help page for /spec !
+
+permissions:
+    spec.spec:
+      default: op
